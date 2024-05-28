@@ -1,0 +1,65 @@
+        .calculator {
+            width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.1);
+            background-color: rgb(191, 191, 210);
+            
+        }
+        .calculator-screen {
+            width: 100%;
+            height: 70px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            text-align: right;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 24px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px black;
+
+        }
+        .calculator-keys button {
+            width: 100%;
+            height: 70px;
+            font-size: 40px;
+            border-radius: 10px;
+            font-style:bold;
+           font-family:'Robotic';
+            border:1px solid rgba(0, 0, 0, 0.268);
+            box-shadow: 2px 2px 5px black;
+        }
+      
+        .calculator-keys .operator {
+            background-color: light;
+            color: black;
+         
+        }       
+        .calculator-keys .equal-sign {
+            background-color: #ffeb3b;
+            color: black;
+            height: 70px;
+        }
+        .calculator-keys .clear {
+            background-color: rgb(95, 95, 184);
+            color: black;
+            font-style: solid;
+
+        }
+        .calculator-keys .all-clear {
+            background-color: pink;
+            color: black;
+            font-style: solid;
+        }
+        .calculator-keys .sum-sign {
+            background-color: rgb(163, 163, 255);
+            color: black;
+            height: 170px;
+        }
+     
+        .table td, .table th{
+            border:none;
+        }

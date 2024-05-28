@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+
+<div class="calculator card">
+    <center> <h6 > Calculatrice Demo 28.05.24</h6></center>
+    <br>
+    <input type="text" class="calculator-screen form-control" disabled />
+
+    <table class="calculator-keys table">
+        <tr>
+            <td><button type="button" class="btn btn-light">7</button></td>
+            <td><button type="button" class="btn btn-light">8</button></td>
+            <td><button type="button" class="btn btn-light">9</button></td>
+            <td><button type="button" class="btn btn-info clear">CE</button></td>
+            <td><button type="button" class="btn btn-danger all-clear">C</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-light">4</button></td>
+            <td><button type="button" class="btn btn-light">5</button></td>
+            <td><button type="button" class="btn btn-light">6</button></td>
+            <td><button type="button" class="btn btn-light operator">/</button></td>
+            <td><button type="button" class="btn  btn-light operator">*</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-light">1</button></td>
+            <td><button type="button" class="btn btn-light">2</button></td>
+            <td><button type="button" class="btn btn-light">3</button></td>
+            <td><button type="button" class="btn  btn-light operator">-</button></td>
+            <td rowspan="2"><button type="button"  class="btn  sum-sign operator">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="button" class="btn btn-light">0</button></td>
+            <td><button type="button" class="btn btn-light">.</button></td>
+            <td><button type="button" class="btn btn-warning equal-sign">=</button></td>
+        </tr>
+    </table>
+    <script src="calculator.js"></script>
+
+</div>
